@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    gap: 20px; /* Avstånd mellan kolumner */
+}
+
+.column {
+    flex: 1; /* Gör så att båda kolumnerna tar lika mycket plats */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
