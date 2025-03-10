@@ -1,0 +1,29 @@
+{
+    "utbildning": [
+        {
+            "school": "Pederskrivares skola",
+            "programm": "El- och energi",
+            "year": "2017 - 2020",
+            "description": "Studerade dator- och nätverkskunskap"
+        },
+        {
+        "school": "Bosgårdsskolan",
+        "year": "2007 - 2017",
+        "description": "Grundskola F-9"
+        }
+    ],
+    "arbete": [
+        {
+            "workplace": "Långåsskolan",
+            "roll": "Fritidslärare",
+            "year": "2021-2025",
+            "description": "Arbetade på fritids och som resurs i mellanstadiet"
+        },
+        {
+            "workplace": "Älvseredsskolan",
+            "roll": "Resurs",
+            "year": "2020-2021",
+            "description": "Can't be null here"
+        }
+    ]
+}

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simons CV</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../CV CSS/style.CSS">
+    <script src="../CV HTML/CV JSON/github-projects.js"></script>
 </head>
 <body>
-    <h1>Välkommen till Simons CV</h1>
     <nav>
         <ul>
             <li><a href="./index.html">Startsida</a></li>
@@ -18,16 +18,10 @@
             <li><a href="github.html">Github</a></li>
         </ul>
     </nav>
-    <div id="easter-egg-1">Don't click me :O</div>
-    <div id="easter-egg-2" class="modal">
-        <div class="modal-content">
-            <p>ELIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT</p>
-        </div>
-    </div>
-    <script src="/CV HTML/CV JSON/easter.js"></script>
-    <script src="/CV HTML/CV JSON/easter2.js"></script>
-    <footer>
-        <p>&copy; 2025 Simons CV</p>
-    </footer>
+    <section id="github projects">
+        <h2>Mina GitHub-projekt</h2>
+        <p id="loading">Laddar projekt...</p>
+        <div id="project-list"></div>
+    </section>
 </body>
 </html>
